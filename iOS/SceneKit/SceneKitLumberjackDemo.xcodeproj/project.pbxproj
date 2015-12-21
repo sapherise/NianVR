@@ -7,37 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		12F1A5231C23D693000CEF50 /* body.png in Resources */ = {isa = PBXBuildFile; fileRef = 12F1A51E1C23D693000CEF50 /* body.png */; };
-		12F1A5241C23D693000CEF50 /* wing.png in Resources */ = {isa = PBXBuildFile; fileRef = 12F1A51F1C23D693000CEF50 /* wing.png */; };
-		12F1A52F1C23DB46000CEF50 /* penguin.dae in Resources */ = {isa = PBXBuildFile; fileRef = 12F1A52E1C23DB46000CEF50 /* penguin.dae */; };
-		12F1A5311C23DBE4000CEF50 /* body_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 12F1A5301C23DBE4000CEF50 /* body_blue.png */; };
+		12301B991C2828DF002EA101 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12301B981C2828DF002EA101 /* Main.storyboard */; };
+		12301BA21C282945002EA101 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12301BA11C282945002EA101 /* Utility.swift */; };
+		12A7456F1C285C2D00F84A38 /* body.png in Resources */ = {isa = PBXBuildFile; fileRef = 12A7456D1C285C2D00F84A38 /* body.png */; };
+		12A745701C285C2D00F84A38 /* wing.png in Resources */ = {isa = PBXBuildFile; fileRef = 12A7456E1C285C2D00F84A38 /* wing.png */; };
+		12A745741C286ED800F84A38 /* penguin.dae in Resources */ = {isa = PBXBuildFile; fileRef = 12A745731C286ED800F84A38 /* penguin.dae */; };
 		DA9D448F1BFD9EB5000D7915 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9D448E1BFD9EB5000D7915 /* AppDelegate.swift */; };
 		DA9D44911BFD9EB5000D7915 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9D44901BFD9EB5000D7915 /* ViewController.swift */; };
-		DA9D44941BFD9EB5000D7915 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA9D44921BFD9EB5000D7915 /* Main.storyboard */; };
 		DA9D44961BFD9EB5000D7915 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA9D44951BFD9EB5000D7915 /* Assets.xcassets */; };
 		DA9D44991BFD9EB5000D7915 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA9D44971BFD9EB5000D7915 /* LaunchScreen.storyboard */; };
-		DA9D44A61BFD9F6D000D7915 /* jacketColor_green.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9D44A11BFD9F6D000D7915 /* jacketColor_green.png */; };
-		DA9D44A71BFD9F6D000D7915 /* jacketColor_offWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9D44A21BFD9F6D000D7915 /* jacketColor_offWhite.png */; };
-		DA9D44AC1BFDA014000D7915 /* SceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9D44AB1BFDA014000D7915 /* SceneView.swift */; };
-		DA9D44AE1BFDA416000D7915 /* OverlayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9D44AD1BFDA416000D7915 /* OverlayScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		12F1A51E1C23D693000CEF50 /* body.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = body.png; sourceTree = "<group>"; };
-		12F1A51F1C23D693000CEF50 /* wing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wing.png; sourceTree = "<group>"; };
-		12F1A52E1C23DB46000CEF50 /* penguin.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = penguin.dae; sourceTree = "<group>"; };
-		12F1A5301C23DBE4000CEF50 /* body_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = body_blue.png; sourceTree = "<group>"; };
+		12301B981C2828DF002EA101 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		12301BA11C282945002EA101 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		12A7456D1C285C2D00F84A38 /* body.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = body.png; sourceTree = "<group>"; };
+		12A7456E1C285C2D00F84A38 /* wing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wing.png; sourceTree = "<group>"; };
+		12A745731C286ED800F84A38 /* penguin.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = penguin.dae; sourceTree = "<group>"; };
 		DA9D448B1BFD9EB4000D7915 /* SceneKitLumberjackDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SceneKitLumberjackDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA9D448E1BFD9EB5000D7915 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA9D44901BFD9EB5000D7915 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DA9D44931BFD9EB5000D7915 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA9D44951BFD9EB5000D7915 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA9D44981BFD9EB5000D7915 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA9D449A1BFD9EB5000D7915 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DA9D44A11BFD9F6D000D7915 /* jacketColor_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jacketColor_green.png; sourceTree = "<group>"; };
-		DA9D44A21BFD9F6D000D7915 /* jacketColor_offWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jacketColor_offWhite.png; sourceTree = "<group>"; };
-		DA9D44AB1BFDA014000D7915 /* SceneView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneView.swift; sourceTree = "<group>"; };
-		DA9D44AD1BFDA416000D7915 /* OverlayScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,12 +43,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		12F1A51C1C23D693000CEF50 /* tex */ = {
+		12A7456C1C285C2D00F84A38 /* tex */ = {
 			isa = PBXGroup;
 			children = (
-				12F1A51E1C23D693000CEF50 /* body.png */,
-				12F1A5301C23DBE4000CEF50 /* body_blue.png */,
-				12F1A51F1C23D693000CEF50 /* wing.png */,
+				12A7456D1C285C2D00F84A38 /* body.png */,
+				12A7456E1C285C2D00F84A38 /* wing.png */,
 			);
 			path = tex;
 			sourceTree = "<group>";
@@ -82,10 +73,9 @@
 			children = (
 				DA9D44A01BFD9F6D000D7915 /* Resources */,
 				DA9D448E1BFD9EB5000D7915 /* AppDelegate.swift */,
+				12301B981C2828DF002EA101 /* Main.storyboard */,
 				DA9D44901BFD9EB5000D7915 /* ViewController.swift */,
-				DA9D44AB1BFDA014000D7915 /* SceneView.swift */,
-				DA9D44AD1BFDA416000D7915 /* OverlayScene.swift */,
-				DA9D44921BFD9EB5000D7915 /* Main.storyboard */,
+				12301BA11C282945002EA101 /* Utility.swift */,
 				DA9D44951BFD9EB5000D7915 /* Assets.xcassets */,
 				DA9D44971BFD9EB5000D7915 /* LaunchScreen.storyboard */,
 				DA9D449A1BFD9EB5000D7915 /* Info.plist */,
@@ -96,10 +86,8 @@
 		DA9D44A01BFD9F6D000D7915 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				12F1A52E1C23DB46000CEF50 /* penguin.dae */,
-				12F1A51C1C23D693000CEF50 /* tex */,
-				DA9D44A11BFD9F6D000D7915 /* jacketColor_green.png */,
-				DA9D44A21BFD9F6D000D7915 /* jacketColor_offWhite.png */,
+				12A745731C286ED800F84A38 /* penguin.dae */,
+				12A7456C1C285C2D00F84A38 /* tex */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -163,14 +151,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA9D44991BFD9EB5000D7915 /* LaunchScreen.storyboard in Resources */,
-				12F1A5311C23DBE4000CEF50 /* body_blue.png in Resources */,
-				12F1A5231C23D693000CEF50 /* body.png in Resources */,
-				12F1A52F1C23DB46000CEF50 /* penguin.dae in Resources */,
-				DA9D44A61BFD9F6D000D7915 /* jacketColor_green.png in Resources */,
-				DA9D44A71BFD9F6D000D7915 /* jacketColor_offWhite.png in Resources */,
+				12A745701C285C2D00F84A38 /* wing.png in Resources */,
+				12A7456F1C285C2D00F84A38 /* body.png in Resources */,
+				12A745741C286ED800F84A38 /* penguin.dae in Resources */,
+				12301B991C2828DF002EA101 /* Main.storyboard in Resources */,
 				DA9D44961BFD9EB5000D7915 /* Assets.xcassets in Resources */,
-				12F1A5241C23D693000CEF50 /* wing.png in Resources */,
-				DA9D44941BFD9EB5000D7915 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,23 +167,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA9D44911BFD9EB5000D7915 /* ViewController.swift in Sources */,
-				DA9D44AE1BFDA416000D7915 /* OverlayScene.swift in Sources */,
 				DA9D448F1BFD9EB5000D7915 /* AppDelegate.swift in Sources */,
-				DA9D44AC1BFDA014000D7915 /* SceneView.swift in Sources */,
+				12301BA21C282945002EA101 /* Utility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DA9D44921BFD9EB5000D7915 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DA9D44931BFD9EB5000D7915 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DA9D44971BFD9EB5000D7915 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -298,6 +274,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SceneKitLumberjackDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SceneKitLumberjackDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -309,6 +286,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SceneKitLumberjackDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SceneKitLumberjackDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
